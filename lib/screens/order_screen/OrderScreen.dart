@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class OrderTabBar extends StatelessWidget {
-  const OrderTabBar({super.key});
+class OrderScreenTab extends StatelessWidget {
+  const OrderScreenTab({super.key});
 
   @override
   Widget build(BuildContext context) {

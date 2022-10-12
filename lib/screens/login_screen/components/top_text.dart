@@ -22,6 +22,7 @@ class _TopTextState extends State<TopText> {
     super.initState();
   }
 
+  @override
   Widget build(BuildContext context) {
     return HelperFunctions.wrapWithAnimatedBuilder(
       animation: ChangeScreenAnimation.topTextAnimation,

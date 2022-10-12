@@ -1,8 +1,6 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
-import 'package:melopos/screens/login_screen/components/centerWidget/center_widget.dart';
+//import 'package:melopos/screens/login_screen/components/centerWidget/center_widget.dart';
 import 'package:melopos/utils/constants.dart';
 import 'package:melopos/utils/helper_functions.dart';
 import '../animation/change_screen_animation.dart';
@@ -59,9 +57,8 @@ class _LoginContentState extends State<LoginContent>
       child: ElevatedButton(
         onPressed: () {},
         style: ElevatedButton.styleFrom(
-          padding: const EdgeInsets.symmetric(vertical: 14),
+          padding: const EdgeInsets.symmetric(vertical: 14), backgroundColor: kSecondaryColor,
           shape: const StadiumBorder(),
-          primary: kSecondaryColor,
           elevation: 8,
           shadowColor: Colors.black87,
         ),
@@ -188,7 +185,7 @@ class _LoginContentState extends State<LoginContent>
   }
 
   @override
-  Widget build(BuildContext) {
+  Widget build(BuildContext context) {
     return Stack(
       children: [
         const Positioned(
