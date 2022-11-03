@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:melopos/screens/login_screen/loginscreen.dart';
-//import 'package:pos/screens/home.dart';
-//import 'package:melopos/screens/order_screen/OrderScreen.dart';
+// import 'package:melopos/screens/login_screen/loginscreen.dart';
+// import 'package:pos/screens/home.dart';
+// import 'package:melopos/screens/order_screen/OrderScreen.dart';
+// import 'screens/additem_screen/additemscreen.dart';
+import 'screens/addproduct_screen/addproductscreen.dart';
 import 'utils/constants.dart';
 
 void main() {
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
               fontFamily: 'Montserrat',
             ),
       ),
-      home: const LoginScreen(),
+      home: const AddProductScreen(),
     );
   }
 }
